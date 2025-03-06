@@ -1,0 +1,9 @@
+@use '../../../style/index.scss' as *;
+
+.error {
+  font-family: $font-family-montserrat;
+  font-size: $font-size-xxl;
+  font-weight: $weight-semi-bold;
+  color: $color-coral;
+  text-align: center;
+}

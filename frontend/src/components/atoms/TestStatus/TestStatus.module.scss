@@ -1,0 +1,25 @@
+@use '../../../style/index.scss' as *;
+
+.status {
+  font-family: $font-family-roboto;
+  font-size: $font-size-s;
+  font-weight: $weight-medium;
+  line-height: $line-height-xs;
+  color: $color-gray-5;
+}
+
+.online {
+  color: $color-green-1;
+}
+
+.paused {
+  color: $color-orange;
+}
+
+.stopped {
+  color: $color-coral;
+}
+
+.draft {
+  color: $color-gray-5;
+}

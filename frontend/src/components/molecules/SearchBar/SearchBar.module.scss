@@ -1,0 +1,27 @@
+@use '../../../style/index.scss' as *;
+
+.container {
+  position: relative;
+  font-family: $font-family-roboto;
+  font-size: $font-size-l;
+  color: $color-gray-2;
+  img {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+  }
+  input {
+    color: $color-gray-6;
+    padding-left: 37px;
+    padding-right: 82px;
+    &::placeholder {
+      color: $color-gray-2;
+    }
+  }
+}
+
+.counter {
+  position: absolute;
+  top: 1em;
+  right: 16.59px;
+}

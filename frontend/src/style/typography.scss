@@ -1,0 +1,27 @@
+@use '../fonts/fonts.scss' as *;
+
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-nunito: 'Nunito', sans-serif;
+
+$font-size-xs: 11px;
+$font-size-s: 12px;
+$font-size-m: 13px;
+$font-size-l: 14px;
+$font-size-xl: 18px;
+$font-size-xxl: 26px;
+
+$line-height-xxs: 12.89px;
+$line-height-xs: 14.06px;
+$line-height-sm: 14.63px;
+$line-height-s: 15.23px;
+$line-height-m: 16.41px;
+$line-height-l: 17.07px;
+$line-height-xl: 21.94px;
+$line-height-xxl: 24.55px;
+$line-height-xxxl: 31.69px;
+
+$weight-regular: 450;
+$weight-medium: 550;
+$weight-semi-bold: 650;
+$weight-bold: 750;

@@ -1,0 +1,57 @@
+@use '../../style/index.scss' as *;
+
+.header {
+  padding: 40px 0;
+}
+
+.header-bottom {
+  font-family: $font-family-montserrat;
+  font-weight: $weight-medium;
+  font-size: $font-size-l;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+.container {
+  max-width: 954px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search {
+  padding-bottom: 30px;
+}
+
+.table {
+  padding-bottom: 50px;
+}
+
+.main {
+  margin: 200px 0 auto 0;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  max-height: 790px;
+  height: 100%;
+}
+
+.noResults {
+  font-family: $font-family-montserrat;
+  font-size: $font-size-xl;
+  font-weight: $weight-regular;
+  line-height: $line-height-xl;
+  text-align: center;
+  padding-top: 119px;
+  h2 {
+    padding: 25px;
+    padding-bottom: 55px;
+  }
+}
+
+.footer {
+  justify-self: flex-end;
+}

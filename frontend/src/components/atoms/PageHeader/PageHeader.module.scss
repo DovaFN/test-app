@@ -1,0 +1,9 @@
+@use '../../../style/index.scss' as *;
+
+.header {
+  font-family: $font-family-montserrat;
+  font-weight: $weight-bold;
+  font-size: $font-size-xxl;
+  line-height: $line-height-xxxl;
+  color: $color-black;
+}

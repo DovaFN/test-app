@@ -1,0 +1,22 @@
+@use '../../../style/index.scss' as *;
+
+.button {
+  font-family: $font-family-montserrat;
+  font-weight: $weight-medium;
+  font-size: $font-size-s;
+  line-height: $line-height-sm;
+  color: $color-white;
+  background-color: $color-green-2;
+  width: 95px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px 0;
+}
+
+.secondary {
+  background-color: $color-gray-4;
+}
+
+.primary {
+  background-color: $color-green-2;
+}

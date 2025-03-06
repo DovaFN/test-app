@@ -1,0 +1,15 @@
+@use './reset.css' as *;
+@use './style/index.scss' as *;
+th {
+  text-align: left;
+}
+button {
+  border: none;
+}
+
+.wrapper {
+  min-height: 790px;
+  max-height: 100%;
+  height: 100vh;
+  background-color: $color-white-gray;
+}

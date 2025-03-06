@@ -1,0 +1,68 @@
+@use '../../../style/index.scss' as *;
+
+.row {
+  display: flex;
+  position: relative;
+  font-family: $font-family-roboto;
+  font-size: $font-size-s;
+  font-weight: $weight-regular;
+  line-height: $line-height-xs;
+  color: $color-gray-5;
+  width: 100%;
+  max-width: 956px;
+  background-color: $color-white;
+  align-items: center;
+  padding: 20px 12px 20px 15px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+
+  &:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  &::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 4px;
+    left: 0;
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  td:first-child {
+    width: 389px;
+    span {
+      font-weight: $weight-medium;
+      font-size: $font-size-m;
+      color: $color-gray-6;
+      line-height: $line-height-s;
+    }
+  }
+
+  td:nth-child(2) {
+    width: 100px;
+    margin: 0 25px;
+  }
+
+  td:nth-child(3) {
+    width: 62px;
+  }
+
+  td:nth-child(4) {
+    width: 117px;
+    margin: 0 60px 0 54px;
+  }
+}
+
+.market::before {
+  background-color: $color-coral;
+}
+
+.delivery::before {
+  background-color: $color-violet-light;
+}
+
+.games::before {
+  background-color: $color-violet;
+}

@@ -1,0 +1,9 @@
+@use '../../../style/index.scss' as *;
+
+.testHead {
+  font-family: $font-family-roboto;
+  font-weight: $weight-medium;
+  font-size: $font-size-xs;
+  line-height: $line-height-xxs;
+  color: $color-gray-3;
+}

@@ -1,8 +1,8 @@
-@use '../fonts/fonts.scss' as *;
+@use 'fonts.scss';
 
-$font-family-roboto: 'Roboto', sans-serif;
-$font-family-montserrat: 'Montserrat', sans-serif;
-$font-family-nunito: 'Nunito', sans-serif;
+$font-family-roboto: 'Roboto';
+$font-family-montserrat: 'Montserrat';
+$font-family-nunito: 'Nunito';
 
 $font-size-xs: 11px;
 $font-size-s: 12px;
